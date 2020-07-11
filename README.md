@@ -1,8 +1,8 @@
 # Basics of JavaScript
 
-## Questions
+## Question 1
 
-1. Write a function to render the following pattern in the console:
+Write a function to render the following pattern in the console:
 <br/>
 * * * * *<br/>
 * * * *<br/>
@@ -12,7 +12,9 @@
 
 The function needs to take a number as a parameter which represents how many asterisks are rendered on the first row.
 
-2. Censor Words Longer Than Four Characters
+## Question 2
+
+Censor Words Longer Than Four Characters
 Create a function that takes a string and censors words over four characters with `*`.
 <br/>
 <br/>
@@ -29,7 +31,9 @@ censor("aaaa aaaaa 1234 12345") ➞ "aaaa ***** 1234 *****"<br/>
 - If all words have four characters or less, return the original string.
 - The amount of `*` is the same as the length of the word.
 
-3. Converting Objects to Arrays
+## Question 3
+
+Converting Objects to Arrays
 Write a function that converts an object into an array, where each element represents a key-value pair.
 <br/>
 <br/>
@@ -45,7 +49,9 @@ toArray({}) ➞ []<br/>
 <b>Note</b>
 - Return an empty array if the object is empty.
 
-4. Filter Repeating Character Strings
+## Question 4
+
+Filter Repeating Character Strings
 Create a function that keeps only strings with repeating identical characters (in other words, it has a set size of 1).
 <br/>
 <br/>
@@ -64,7 +70,9 @@ identicalFilter(["xxxxo", "oxo", "xox", "ooxxoo", "oxo"])
 - A string with a single character is trivially counted as a string with repeating identical characters.
 - If there are no strings with repeating identical characters, return an empty array (see example #3).
 
-4. Return the Objects Keys and Values
+## Question 5
+
+Return the Objects Keys and Values
 Create a function that takes an object and returns the keys and values as separate arrays.
 <br/>
 <br/>
