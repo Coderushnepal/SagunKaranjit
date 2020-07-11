@@ -4,11 +4,11 @@
 
 Write a function to render the following pattern in the console:
 <br/>
-* * * * *<br/>
-* * * *<br/>
-* * *<br/>
-* * <br/>
-*<br/>
+`* * * * *`<br/>
+`* * * *`<br/>
+`* * *`<br/>
+`* *`<br/>
+`*`<br/>
 
 The function needs to take a number as a parameter which represents how many asterisks are rendered on the first row.
 
@@ -20,11 +20,9 @@ Create a function that takes a string and censors words over four characters wit
 <br/>
 <b>Examples</b>
 <br/>
-<code>
-censor("The code is fourty") ➞ "The code is ******"<br/><br/>
-censor("Two plus three is five") ➞ "Two plus ***** is five"<br/><br/>
-censor("aaaa aaaaa 1234 12345") ➞ "aaaa ***** 1234 *****"<br/><br/>
-</code>
+censor("The code is fourty") ➞ "The code is ******"<br/>
+censor("Two plus three is five") ➞ "Two plus ***** is five"<br/>
+censor("aaaa aaaaa 1234 12345") ➞ "aaaa ***** 1234 *****"<br/>
 <br/>
 <b>Note</b>
 - Don't censor words with exactly four characters.
@@ -39,12 +37,12 @@ Write a function that converts an object into an array, where each element repre
 <br/>
 <b>Examples</b>
 <br/>
-<code>
+
 toArray({ a: 1, b: 2 }) ➞ [["a", 1], ["b", 2]]
 <br/>
 toArray({ shrimp: 15, tots: 12 }) ➞ [["shrimp", 15], ["tots", 12]]<br/>
 toArray({}) ➞ []<br/>
-</code>
+
 <br/>
 <b>Note</b>
 - Return an empty array if the object is empty.
@@ -57,14 +55,14 @@ Create a function that keeps only strings with repeating identical characters (i
 <br/>
 <b>Examples</b>
 <br/>
-<code>
+
 toArray({ a: 1, b: 2 }) ➞ [["a", 1], ["b", 2]]
 <br/>
 identicalFilter(["88", "999", "22", "545", "133"]) 
 ➞ ["88", "999", "22"]<br/>
 identicalFilter(["xxxxo", "oxo", "xox", "ooxxoo", "oxo"]) 
 ➞ []<br/>
-</code>
+
 <br/>
 <b>Note</b>
 - A string with a single character is trivially counted as a string with repeating identical characters.
@@ -78,7 +76,7 @@ Create a function that takes an object and returns the keys and values as separa
 <br/>
 <b>Examples</b>
 <br/>
-<code>
+
 keysAndValues({ a: "Apple", b: "Microsoft", c: "Google" })
 ➞ [["a", "b", "c"], ["Apple", "Microsoft", "Google"]]
 <br/>
@@ -87,7 +85,7 @@ keysAndValues({ a: 1, b: 2, c: 3 })
 keysAndValues({ key1: true, key2: false, key3: undefined })
 ➞ [["key1", "key2", "key3"], [true, false, undefined]]
 <br/>
-</code>
+
 <br/>
 <b>Notes</b>
 - Remember to sort the keys.
