@@ -25,9 +25,9 @@ censor("Two plus three is five") ➞ "Two plus ***** is five"<br/>
 censor("aaaa aaaaa 1234 12345") ➞ "aaaa ***** 1234 *****"<br/>
 <br/>
 <b>Note</b>
-- Don't censor words with exactly four characters.
-- If all words have four characters or less, return the original string.
-- The amount of `*` is the same as the length of the word.
+* Don't censor words with exactly four characters.
+* If all words have four characters or less, return the original string.
+* The amount of `*` is the same as the length of the word.
 
 ## Question 3
 
@@ -45,7 +45,7 @@ toArray({}) ➞ []<br/>
 
 <br/>
 <b>Note</b>
-- Return an empty array if the object is empty.
+* Return an empty array if the object is empty.
 
 ## Question 4
 
@@ -65,8 +65,8 @@ identicalFilter(["xxxxo", "oxo", "xox", "ooxxoo", "oxo"])
 
 <br/>
 <b>Note</b>
-- A string with a single character is trivially counted as a string with repeating identical characters.
-- If there are no strings with repeating identical characters, return an empty array (see example #3).
+* A string with a single character is trivially counted as a string with repeating identical characters.
+* If there are no strings with repeating identical characters, return an empty array (see example #3).
 
 ## Question 5
 
@@ -88,4 +88,4 @@ keysAndValues({ key1: true, key2: false, key3: undefined })
 
 <br/>
 <b>Notes</b>
-- Remember to sort the keys.
+* Remember to sort the keys.
