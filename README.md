@@ -21,9 +21,9 @@ Create a function that takes a string and censors words over four characters wit
 <b>Examples</b>
 <br/>
 <code>
-censor("The code is fourty") ➞ "The code is ******"<br/>
-censor("Two plus three is five") ➞ "Two plus ***** is five"<br/>
-censor("aaaa aaaaa 1234 12345") ➞ "aaaa ***** 1234 *****"<br/>
+censor("The code is fourty") ➞ "The code is ******"<br/><br/>
+censor("Two plus three is five") ➞ "Two plus ***** is five"<br/><br/>
+censor("aaaa aaaaa 1234 12345") ➞ "aaaa ***** 1234 *****"<br/><br/>
 </code>
 <br/>
 <b>Note</b>
