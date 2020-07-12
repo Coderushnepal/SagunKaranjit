@@ -14,7 +14,7 @@ The function needs to take a number as a parameter which represents how many ast
 
 ## Question 2
 
-Censor Words Longer Than Four Characters
+Censor Words Longer Than Four Characters<br/>
 Create a function that takes a string and censors words over four characters with `*`.
 <br/>
 <br/>
@@ -31,7 +31,7 @@ censor("aaaa aaaaa 1234 12345") ➞ "aaaa ***** 1234 *****"<br/>
 
 ## Question 3
 
-Converting Objects to Arrays
+Converting Objects to Arrays<br/>
 Write a function that converts an object into an array, where each element represents a key-value pair.
 <br/>
 <br/>
@@ -49,7 +49,7 @@ toArray({}) ➞ []<br/>
 
 ## Question 4
 
-Filter Repeating Character Strings
+Filter Repeating Character Strings<br/>
 Create a function that keeps only strings with repeating identical characters (in other words, it has a set size of 1).
 <br/>
 <br/>
@@ -70,7 +70,7 @@ identicalFilter(["xxxxo", "oxo", "xox", "ooxxoo", "oxo"])
 
 ## Question 5
 
-Return the Objects Keys and Values
+Return the Objects Keys and Values<br/>
 Create a function that takes an object and returns the keys and values as separate arrays.
 <br/>
 <br/>
