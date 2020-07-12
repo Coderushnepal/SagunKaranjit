@@ -56,8 +56,6 @@ Create a function that keeps only strings with repeating identical characters (i
 <b>Examples</b>
 <br/>
 
-toArray({ a: 1, b: 2 }) ➞ [["a", 1], ["b", 2]]
-<br/>
 identicalFilter(["88", "999", "22", "545", "133"]) 
 ➞ ["88", "999", "22"]<br/>
 identicalFilter(["xxxxo", "oxo", "xox", "ooxxoo", "oxo"]) 
